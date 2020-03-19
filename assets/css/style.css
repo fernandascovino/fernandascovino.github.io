@@ -1,14 +1,14 @@
 @import url(//fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
 
 body{
-	color: #2c3e50;
+	color: #37464B;
 }
 
 .sidebar {
 	position: fixed;
 	top: 0px;
 	padding-top: 10%;
-	background-color: #D9895B;
+	background-color: #DC8448;
 	color: #fff;
 }
 
@@ -17,13 +17,13 @@ body{
 	margin-bottom: 10px;
 }
 .sidebar-header .title{
-	letter-spacing: 3px;
-	font-size: 16px;
+	letter-spacing: 2.5px;
 }
 
 .sidebar-header .title a{
 	text-decoration: none;
 	color: #fff;
+	font-size: 24px;
 }
 
 a.nav-link {
@@ -39,6 +39,7 @@ a.nav-link:hover { color: #777; }
 #bio {
 	font-family: "Ubuntu", sans-serif;
 	font-size: 12px;
+	font-weight: 100;
 	margin: 0 auto;
 	margin-bottom: 10px;
 }
@@ -82,8 +83,7 @@ article .share .gplus:hover {
 }
 
 .page-header {
-	color: #e74c3c;
-	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+	color: #37464B;
 }
 
 @media only screen and (min-width: 768px) {
@@ -111,8 +111,8 @@ article {
 	padding: 0 5% 0;
 }
 
-article.home div a, article.home pre a { color: #2c3e50; }
-article.home div a:hover, article.home pre a:hover { color: #2c3e50; text-decoration: none; }
+article.home div a, article.home pre a { color: #37464B; }
+article.home div a:hover, article.home pre a:hover { color: #37464B; text-decoration: none; }
 article img { max-width: 100%; }
 
 h1,h2,h3,h4,h5,h6 { font-family: 'Ubuntu', sans-serif; }
@@ -123,20 +123,20 @@ article.home h4,
 article.home h5,
 article.home h6 {
 	font-family: 'Ubuntu', sans-serif;
-	color: #f2756a;
+	color: #A0B4B9;
 }
 
 article.home h1 a,
 article.home h2 a,
 article.home h3 a,
 article.home h4 a {
-	color: #f2756a;
+	color: #DC8448;
 }
 article.home h1 a:hover,
 article.home h2 a:hover,
 article.home h3 a:hover,
 article.home h4 a:hover {
-	color: #e74c3c;
+	color: #A0B4B9;
 }
 
 .author .author-image {
@@ -151,7 +151,7 @@ footer {
 
 /* nav-vertical-tabs component */
 .nav-tabs-vertical {
-    border-right: 1px solid #ddd;
+    border-right: 1px solid #DC8448;
 }
 
 .nav-tabs-vertical li {
@@ -172,7 +172,7 @@ footer {
     border-radius: 4px 0 0 4px;
 }
 
-.badge { background: #F2756A; }
+.badge { background: #DC8448; }
 
 #nav-menu{
     position: fixed;
@@ -188,4 +188,3 @@ footer {
 ul.dropdown-menu>li>a>i.fa {
     width: 1.3em;
 }
-
