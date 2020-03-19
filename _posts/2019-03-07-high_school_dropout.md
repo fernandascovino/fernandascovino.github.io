@@ -7,7 +7,7 @@ fullview: true
 comments: true
 ---
 
-This project aims to build a freshman dropout predictor for high schools in Rio de Janeiro state using public data.
+The project aims to build a freshman dropout predictor for high schools in Rio de Janeiro state using public data.
 
 According to a study by [Insper](http://gesta.org.br/wp-content/uploads/2017/09/Politicas-Publicas-para-reducao-do-abandono-e-evasao-escolar-de-jovens.pdf), one in every 4 young people aged 15 to 17 interrupt their studies at this stage. Several dropout recovery programs have emerged in recent years in different states and municipalities. The current public policy acts after the student leaves the educational system. My goal was to measure the likelihood of a student to dropout, creating a vulnerability indicator that could be used in a preemptive public policy. 
 
