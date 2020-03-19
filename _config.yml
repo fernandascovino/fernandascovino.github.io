@@ -3,11 +3,11 @@
 paginate: 10 # pagination based on number of posts
 paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
-highlighter: rouge
+highlighter:
 markdown: kramdown
-disqus: dbyll
-google_analytics: dbyll
-title: dbyll
+disqus: fernandascovino
+google_analytics: #fernandascovino
+title: fernandascovino
 
 defaults:
   -
@@ -27,7 +27,6 @@ author:
   bio: Passionate for data & viz for social good <br>Data Research @ CEIPE-FGV <br> Applied Math @ FGV-Rio
   email_md5: 726351295ec82e145928582f595aa3aa
 
-rss_path: 
 categories_path: categories.html
 tags_path: tags.html
 
