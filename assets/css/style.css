@@ -2,6 +2,14 @@
 
 body{
 	color: #37464B;
+	font-family: "Ubuntu", sans-serif;
+}
+
+.thin {
+  font-weight: 200;
+}
+.light {
+  font-weight: 300;
 }
 
 .btn {
