@@ -105,6 +105,11 @@ article .share .gplus:hover {
 @media only screen and (min-width: 768px) {
     .page-header{
         margin-right: 70px;
+	color: #DC8448;
+	font-family: Ubuntu sans-serif;
+	font-weight: 700;
+	font-color: #37464B;
+	letter-spacing: 2px;
     }
 }
 
