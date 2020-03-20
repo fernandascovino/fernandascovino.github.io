@@ -224,3 +224,16 @@ footer {
 ul.dropdown-menu>li>a>i.fa {
     width: 1.3em;
 }
+
+.navbar-toggle {
+	border-color: #ddd;
+	background-color: #37464B;
+}
+
+.navbar-brand {
+	border-color: #ddd;
+	background-color: #37464B;
+	letter-spacing: 2px;
+	font-weight: bold;
+	font-size: 14px;
+}
