@@ -118,7 +118,6 @@ article .share .gplus:hover {
 
 @media only screen and (min-width: 768px) {
     .page-header{
-        margin-right: 70px;
 	color: #DC8448;
 	font-family: Ubuntu sans-serif;
 	font-weight: 700;
@@ -230,10 +229,13 @@ ul.dropdown-menu>li>a>i.fa {
 	background-color: #37464B;
 }
 
+.navbar-default .navbar-brand {
+    color: #37464B;
+}
+
 .navbar-brand {
 	border-color: #ddd;
 	background-color: #DC8448;
-	color: #37464B;
 	letter-spacing: 2px;
 	font-weight: bold;
 	font-size: 14px;
