@@ -5,7 +5,10 @@ body{
 }
 
 .btn {
-   font-weight: bolder;
+	font-weight: bolder;
+	color: #5F6B6F;
+	font-color: #fff;
+	border-color: #37464B;
 }
 
 .sidebar {
