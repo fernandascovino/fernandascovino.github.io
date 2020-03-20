@@ -43,6 +43,7 @@ p {
 .sidebar-header {
 	text-align: center;
 	margin-bottom: 10px;
+	background-color: #DC8448;
 }
 .sidebar-header .title{
 	letter-spacing: 2.5px;
