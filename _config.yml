@@ -5,7 +5,7 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter:
 markdown: kramdown
-disqus: fernandascovino
+disqus:
 google_analytics: #fernandascovino
 title: fernandascovino
 
