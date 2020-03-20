@@ -245,3 +245,10 @@ ul.dropdown-menu>li>a>i.fa {
 	font-size: 18px;
 	font-family: "Ubuntu", sans-serif;
 }
+
+.navbar-bio {
+	border-color: #ddd;
+	background-color: #DC8448;
+	font-size: 12px;
+	font-family: "Ubuntu", sans-serif;
+}
