@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Predicting high school dropout on Rio de Janeiro
+title: Predicting high school dropout students in Rio de Janeiro state
 categories: [Projects]
 tags: [data science, education]
 fullview: true
