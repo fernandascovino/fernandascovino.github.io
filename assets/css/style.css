@@ -229,6 +229,10 @@ ul.dropdown-menu>li>a>i.fa {
 	background-color: #37464B;
 }
 
+.navbar {
+	background-color: #DC8448;
+}
+
 .navbar-default .navbar-brand {
     color: #37464B;
 }
