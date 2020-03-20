@@ -60,11 +60,9 @@
 			{% endif %}
 			<a class="navbar-brand" href="{{ site.BASE_PATH }}/">
 				<img src="images/IMG-20190112-WA0081.jpeg" class="img-circle" width="150" height="150"/>
-				{{ site.title }}
-			</a>
-			<a class="navbar-text" href="{{ site.BASE_PATH }}/">
-			{% if site.author.bio %}
-			<div id="bio" class="text-center">
+				{{ site.title }}<br>
+				{% if site.author.bio %}
+				<div id="bio" class="text-center">
 				{{ site.author.bio }}
 			</div>
 			{% endif %}
