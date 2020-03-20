@@ -249,6 +249,7 @@ ul.dropdown-menu>li>a>i.fa {
 .navbar-bio {
 	border-color: #ddd;
 	background-color: #DC8448;
-	font-size: 12px;
+	font-size: 10px;
 	font-family: "Ubuntu", sans-serif;
+	color: #37464B;
 }
