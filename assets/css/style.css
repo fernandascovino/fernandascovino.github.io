@@ -234,7 +234,7 @@ ul.dropdown-menu>li>a>i.fa {
 }
 
 .navbar-default .navbar-brand {
-    color: #37464B;
+    color: #fff;
 }
 
 .navbar-brand {
@@ -243,11 +243,4 @@ ul.dropdown-menu>li>a>i.fa {
 	font-weight: bold;
 	font-size: 18px;
 	font-family: "Ubuntu", sans-serif;
-}
-
-.navbar-bio {
-	border-color: #ddd;
-	font-size: 10px;
-	font-family: "Ubuntu", sans-serif;
-	color: #37464B;
 }
