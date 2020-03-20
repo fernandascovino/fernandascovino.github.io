@@ -8,7 +8,7 @@ comments: true
 ---
 
 <a class="btn btn-default" href="https://github.com/fernandascovino/tcc_emap">Code on GitHub!</a> 
-<a class="btn btn-default" href="https://docs.google.com/presentation/d/1vZwOeb8y5v3Ls1A6gzKOEhrAjd5TeHD_cRXEdmYGeRk/edit?usp=sharing">OpenData Day (ptbr)</a>
+<a class="btn btn-default" href="https://docs.google.com/presentation/d/1vZwOeb8y5v3Ls1A6gzKOEhrAjd5TeHD_cRXEdmYGeRk/edit?usp=sharing">OpenData Day (pt)</a>
 
 The project aims to build a freshman dropout predictor for high schools in Rio de Janeiro state using public data. This work was presented on Cerveja com Dados: Open Data Day.
 
