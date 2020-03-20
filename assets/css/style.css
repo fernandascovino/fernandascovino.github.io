@@ -240,7 +240,8 @@ ul.dropdown-menu>li>a>i.fa {
 .navbar-brand {
 	border-color: #ddd;
 	background-color: #DC8448;
-	letter-spacing: 2px;
+	letter-spacing: 2.5px;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 18px;
+	font-family: "Ubuntu", sans-serif;
 }
