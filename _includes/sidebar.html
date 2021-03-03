@@ -1,11 +1,11 @@
 <!-- sidebar.html -->
 <header class="sidebar-header" role="banner">
 	<a href="{{ site.BASE_PATH }}/">
-		<img src="/images/IMG-20190112-WA0081.jpeg" class="img-circle" width="150" height="150"/>
+		<img src="{{site.author.photo}}" class="img-circle" width="150" height="150" />
 	</a>
 	<h3 class="title">
-        <a href="{{ site.BASE_PATH }}/">{{ site.title }}</a>
-    </h3>
+		<a href="{{ site.BASE_PATH }}/">{{ site.title }}</a>
+	</h3>
 </header>
 
 {% if site.author.bio %}
@@ -23,7 +23,7 @@
 			</a>
 		</li>
 		{% endif %}
-		
+
 		{% if site.author.linkedin %}
 		<li>
 			<a class="btn btn-default btn-sm" href="https://linkedin.com/in/{{ site.author.linkedin }}">
@@ -31,7 +31,7 @@
 			</a>
 		</li>
 		{% endif %}
-		
+
 		{% if site.author.email %}
 		<li>
 			<a class="btn btn-default btn-sm" href="mailto:{{ site.author.email }}">
@@ -48,7 +48,7 @@
 			</a>
 		</li>
 		{% endif %}
-		
+
 		{% if site.author.twitter %}
 		<li>
 			<a class="btn btn-default btn-sm" href="https://twitter.com/{{ site.author.twitter }}">

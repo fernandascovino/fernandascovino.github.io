@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<title>{{ page.title }}</title>
@@ -37,7 +38,8 @@
 	<nav class="navbar navbar-default visible-xs" role="navigation">
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			<button type="button" class="navbar-toggle" data-toggle="collapse"
+				data-target="#bs-example-navbar-collapse-1">
 				<span class="sr-only">Toggle navigation</span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
@@ -59,13 +61,13 @@
 			</a>
 			{% endif %}
 			<a class="navbar-brand" href="{{ site.BASE_PATH }}/">
-				<img src="/images/IMG-20190112-WA0081.jpeg" class="img-circle" width="150" height="150"/>
+				<img src="{{site.author.photo}}" class="img-circle" width="150" height="150" />
 				{{ site.title }}<br>
 				{% if site.author.bio %}
 				<div id="bio" class="text-center">
-				{{ site.author.bio }}
-			</div>
-			{% endif %}
+					{{ site.author.bio }}
+				</div>
+				{% endif %}
 			</a>
 		</div>
 
@@ -93,7 +95,8 @@
 		</ul>
 	</div>
 
-	<div class="col-sm-3 sidebar hidden-xs" style="{% if site.sidebar_background_image %}background: url({{site.sidebar_background_image}}) no-repeat !important;{% endif %}">
+	<div class="col-sm-3 sidebar hidden-xs"
+		style="{% if site.sidebar_background_image %}background: url({{site.sidebar_background_image}}) no-repeat !important;{% endif %}">
 		{% include sidebar.html %}
 	</div>
 
@@ -101,9 +104,11 @@
 		{{ content }}
 
 		<footer>
-			<hr/>
+			<hr />
 			<p>
-				&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} with <a href="http://jekyllrb.com/">Jekyll</a>. Theme: <a href="https://github.com/dbtek/dbyll">dbyll</a> by dbtek.
+				&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} with <a
+					href="http://jekyllrb.com/">Jekyll</a>. Theme: <a href="https://github.com/dbtek/dbyll">dbyll</a> by
+				dbtek.
 			</p>
 		</footer>
 	</div>
@@ -112,4 +117,5 @@
 	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/resources/bootstrap/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/js/app.js"></script>
 </body>
+
 </html>

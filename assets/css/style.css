@@ -6,6 +6,10 @@ body{
 	font-size: 12px;
 }
 
+a {
+	color: #d6d1cb;
+}
+
 p {
 	margin: 0px 50px 20px 0;
 }
@@ -67,7 +71,7 @@ a.nav-link:hover { color: #777; }
 
 #bio {
 	font-family: "Ubuntu", sans-serif;
-	font-size: 12px;
+	font-size: 16px;
 	font-weight: 100;
 	margin: 0 auto 0 20px;
 	margin-bottom: 10px;

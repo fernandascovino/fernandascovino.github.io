@@ -1,6 +1,6 @@
 # visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-paginate: 10 # pagination based on number of posts
+paginate: 2 # pagination based on number of posts
 paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter:
@@ -24,8 +24,9 @@ author:
   twitter: fernandascovino
   pinterest: 
   linkedin: fernanda-scovino
-  bio: <br>Passionate for data & viz for social good <br> • <br>Data Sientist @ <a href="https://www.impulsogov.com.br/">Impulso-gov</a> <br>Bsc Applied Math @ FGV-Rio
+  bio: <br>Passionate for data & viz for social good <br> • <br>Data Sientist <a href="http://www.rio.rj.gov.br/web/smac">@SMAC-Rio</a> <br>Co-founder <a href="https://basedosdados.org">@basedosdados</a> <br>Former <a href="https://www.impulsogov.com.br/">@ImpulsoGov</a>, <a href="https://direitorio.fgv.br/cts">@CTSFGV</a> <br>Bsc Applied Math @ FGV-Rio
   email_md5:
+  photo: /images/myself.png
 
 categories_path: categories.html
 tags_path: tags.html
